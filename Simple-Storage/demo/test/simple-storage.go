@@ -13,14 +13,14 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 )
 
-const NodeUrl = "http://52.83.148.57:20001"
-const NodeWsUrl = "ws://52.83.148.57:8551"
-const Address = "0xDDA883936Ac4044C7EdCE7aF5d5a61F7e594dFE3"
-const PrivateKey = "79c57b4d61fbcb281312ddb4d1fde89e3479965b21d8c2804c74b4f5db2d47f9"
+const NodeUrl = ""
+const NodeWsUrl = ""
+const Address = ""
+const PrivateKey = ""
 
-var key1 = "key1"
-var value1 = "bb"
-var value2 = "cc"
+var key1 = "1"
+var value1 = "Hello"
+var value2 = "World"
 
 func TestStoreData(t *testing.T) {
 	log.InitLog()
