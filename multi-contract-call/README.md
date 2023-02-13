@@ -21,7 +21,7 @@
 
 ​	`setX`和`setXFromAddress`两个方法实现逻辑一模一样只是写法不同。
 
-```json
+```
 // data.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
@@ -39,7 +39,7 @@ contract Data {
 }
 ```
 
-```json
+```
 // logic.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
@@ -147,7 +147,7 @@ func TestSetXFromAddress(t *testing.T) {
 
 
 
-```json
+```
 // receiver.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
@@ -167,7 +167,7 @@ contract Receiver {
 
 ```
 
-```json
+```
 // caller.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
