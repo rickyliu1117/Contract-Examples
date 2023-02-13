@@ -1,5 +1,7 @@
 # 多合约调用结构
 
+[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) [![License](https://badgen.net/badge/license/MIT/blue)](https://typescriptlang.org)
+
 ​		一个应用如果只使用了一个合约来实现业务逻辑肯定是不合理的，因为数据承载会超出区块的限制，所以应该在初始设计阶段就应该考虑多合约的结构。这里介绍了两种多合约调用方式以供参考。
 
 - 合约引用
