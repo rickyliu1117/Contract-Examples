@@ -1,4 +1,5 @@
 # NFT 碎片化
+[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) [![License](https://badgen.net/badge/license/MIT/blue)](https://typescriptlang.org)
 
 ## 什么是NFT碎片化
 
