@@ -7,15 +7,19 @@
 - 合约引用
 - 合约call和delegatecall
 
-## 1.合约引用
+## 前提条件
 
-### 使用说明 
+在使用智能合约之前，必须对以太坊和Solidity有基本的了解。
+有关智能合约入门的全面指南，请参阅我们的[初学者指南](https://github.com/BSN-DDC/docs/blob/main/BSN-DDC%E7%BD%91%E7%BB%9C%E9%83%A8%E7%BD%B2Solidity%E5%90%88%E7%BA%A6%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E6%8C%87%E5%8D%97.pdf)。
+
+
+## 使用说明 
 
 ​		用户下载示例合约，通过remix连接并进行简单调用验证后可自行对示例合约进行修改。或者通过abigen编译工具编译出的golang语言的文件进行调用。编译命令示例：
 
 `./abigen --bin ./Test.bin --abi ./Test.abi --pkg Test --out Test.go`
 
-### 合约概述
+## 合约概述
 
 ​		如下面的两个合约代码所示，Logic合约通过引用Data合约后实现了Data合约里的方法调用，当给定Logic合约里的`setX`方法第一个入参为Data合约的合约地址，第二个入参为数值后调用，会发现Data合约里的数值也相应的产生了变化。
 
@@ -69,7 +73,7 @@ contract Logic {
 
 ```
 
-### Go语言调用示例
+## Go语言调用示例
 
 - ***setX方法调用***
 
@@ -127,7 +131,7 @@ func TestSetXFromAddress(t *testing.T) {
 }
 ```
 
-## 2.合约call和delegatecall
+## 合约call和delegatecall
 
 ### 使用说明 
 

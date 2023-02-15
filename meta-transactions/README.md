@@ -1,4 +1,4 @@
-## 元交易说明
+# 元交易
 [![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) [![License](https://badgen.net/badge/license/MIT/blue)](https://typescriptlang.org)
 
 元交易（Meta Transaction），是一种用户使用DApp、发起交易和调用智能合同而无需支付燃气费的一种方式。
@@ -21,6 +21,12 @@
 那我们如何绕过这个限制呢？答案是智能合约。
 
 如果这笔交易发生在智能合约内部，也就是说，在普通的交易内部嵌入一个交易（这个交易就被称作元交易），交易被你的中间人/节点签署，并指定接收者地址为元交易智能合约的地址，因此 gas 费由中间人/节点支付；而元交易智能合约在收到一笔元交易后，会验证元交易的签名信息，确认无误后，你的元交易在元交易智能合约中被执行。
+
+## 前提条件
+
+在使用智能合约之前，必须对以太坊和Solidity有基本的了解。
+有关智能合约入门的全面指南，请参阅我们的[初学者指南](https://github.com/BSN-DDC/docs/blob/main/BSN-DDC%E7%BD%91%E7%BB%9C%E9%83%A8%E7%BD%B2Solidity%E5%90%88%E7%BA%A6%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E6%8C%87%E5%8D%97.pdf)。
+
 
 ## 场景说明
 
@@ -88,7 +94,7 @@ var privateKey = ""; 		//发送者私钥（用户A的私钥）
 
 数据中的`r,s,v`就是元交易需要使用的签名参数
 
-```json
+```
 {
   r: '0x00',
   s: '0x00',

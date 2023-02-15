@@ -1,6 +1,11 @@
 # NFT 碎片化
 [![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) [![License](https://badgen.net/badge/license/MIT/blue)](https://typescriptlang.org)
 
+## 前提条件
+
+在使用智能合约之前，必须对以太坊和Solidity有基本的了解。
+有关智能合约入门的全面指南，请参阅我们的[初学者指南](https://github.com/BSN-DDC/docs/blob/main/BSN-DDC%E7%BD%91%E7%BB%9C%E9%83%A8%E7%BD%B2Solidity%E5%90%88%E7%BA%A6%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E6%8C%87%E5%8D%97.pdf)。
+
 ## 什么是NFT碎片化
 
 通过智能合约，基于ERC-721的NFT作品被分割成多个ERC-20代币（ERC-1155 Token），其所有权也被一同拆分，易于流转与交易。
