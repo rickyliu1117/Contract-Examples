@@ -1,6 +1,6 @@
 # 多合约调用结构
 
-[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) [![License](https://badgen.net/badge/license/MIT/blue)](https://typescriptlang.org)
+[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) 
 
 ​		一个应用如果只使用了一个合约来实现业务逻辑肯定是不合理的，因为数据承载会超出区块的限制，所以应该在初始设计阶段就应该考虑多合约的结构。这里介绍了两种多合约调用方式以供参考。
 
@@ -26,8 +26,6 @@
 ​	`setX`和`setXFromAddress`两个方法实现逻辑一模一样只是写法不同。
 
 ```
-// data.sol
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
 contract Data {
@@ -44,9 +42,6 @@ contract Data {
 ```
 
 ```
-// logic.sol
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
 
 import "./data.sol";
 
@@ -152,9 +147,6 @@ func TestSetXFromAddress(t *testing.T) {
 
 
 ```
-// receiver.sol
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
 
 contract Receiver {
     uint public x;
@@ -172,9 +164,6 @@ contract Receiver {
 ```
 
 ```
-// caller.sol
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
 
 contract Caller {
 	uint public x;

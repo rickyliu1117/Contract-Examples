@@ -1,6 +1,6 @@
 # 电子存证
 
-[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) [![License](https://badgen.net/badge/license/MIT/blue)](https://typescriptlang.org)
+[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) 
 
 电子存证是一种用于保存证据的手段，应用场景很多，例如在版权领域，作者可以将作品指纹保存到电子存证机构，当出现版权纠纷时，可通过取证解决纠纷。存证、取证的关键环节是电子存证服务机构，如何保证它的可信性，即存证机构本身不会对存证数据进行破坏？传统的中心化存证机构很难解决这个问题，需要由区块链技术来解决。在区块链技术中，电子账本由各个节点共同维护，其内容由共识算法决定，单一节点无法篡改已达成共识的账本数据。这一不可篡改的特性是去中心化电子存证方案的核心。该方案中，存证数据不再存储于单一机构，而是分布式地存储在所有区块链节点上。
 

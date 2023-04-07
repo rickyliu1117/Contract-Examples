@@ -1,5 +1,5 @@
 # 元交易
-[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) [![License](https://badgen.net/badge/license/MIT/blue)](https://typescriptlang.org)
+[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) 
 
 元交易（Meta Transaction），是一种用户使用DApp、发起交易和调用智能合同而无需支付燃气费的一种方式。
 

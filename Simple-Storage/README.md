@@ -1,5 +1,5 @@
 # 数据存储合约
-[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/) [![License](https://badgen.net/badge/license/MIT/blue)](https://typescriptlang.org)
+[![Smart Contract](https://badgen.net/badge/smart-contract/Solidity/orange)](https://soliditylang.org/)
 
 数据存储是区块链技术的一大特点，传统 IT 系统内的业务数据存储均依赖于先有存储空间，意味着用户需要先购买存储资源；其次如果用户使用的是云资源也面临着需要长期续费，否则用户的整个云主机都将被卸载，业务数据终将丢失。而 BSN 定义的公共 IT 系统，基于区块链的特性和无币公链、开放联盟链的自有特点，用户只有在部署合约和发送交易的时候承担非常少的 GAS （注意：不同于公有链上的 GAS）即可，数据永久存储于链上，不调用或者调用查询方法都不产生任何费用。
 
