@@ -9,7 +9,7 @@
 
 - 掌握最基本的[ERC20标准](https://eips.ethereum.org/EIPS/eip-20)。
 - 合约owner、交易的sender的概念。
-- 在使用智能合约之前，必须对以太坊和Solidity有基本的了解。有关智能合约入门的全面指南，请参阅我们的[初学者指南](https://github.com/BSN-DDC/docs/blob/main/BSN-DDC%E7%BD%91%E7%BB%9C%E9%83%A8%E7%BD%B2Solidity%E5%90%88%E7%BA%A6%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E6%8C%87%E5%8D%97.pdf)。
+- 在使用智能合约之前，必须对以太坊和Solidity有基本的了解。
 
 ## 合约概述
 
